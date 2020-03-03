@@ -1,4 +1,4 @@
-# Sorting_Algorithms_Implementations
+# Sorting_Algorithms_Implementation
 ## 6 Common Sorting Algorithms In File
 ### Bubble Sort
 Bubble Sort is an sorting algorithm going through the array if any two numbers are in descending orders, they are swapped. Therefore, the last element in the array for each loop is sorted.
