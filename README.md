@@ -67,7 +67,7 @@ def merge_sort(arr):
             k += 1
     return arr
 ```
-### Quick Sort
+### Quick Sort (pivoting last element in the code)
 Quick Sort is an sorting algorithm that selects an element (first,last,random,median) as the pivot each loop and put all elements smaller before it, all greater ones after it, so that pivot is in the right spot.
 ```
 def partition(arr, low, high):
