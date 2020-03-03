@@ -88,8 +88,8 @@ def quick_sort(arr, low, high):
         quick_sort(arr, pivot + 1, high)
     return arr
 ```
-### Heap Sort
-Heap Sort is an sorting algorithm that builds a heap tree from unsorted array and take the root out in each iteration, then the array is sorted
+### Heap Sort (Max Heap used in the code)
+Heap Sort is an sorting algorithm that builds a heap tree from unsorted array and put root node to the end of array in each iteration, then the array is sorted.
 ```
 def heapify(arr, n, i):
     root = i
